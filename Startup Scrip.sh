@@ -1,5 +1,5 @@
 sudo apt-get remove docker docker-engine docker.io containerd runc
-sudo apt-get update && upgrade -y
+sudo apt-get update && sudo apt upgrade -y
 sudo apt install -y nmap tcpdump tcptrack aircrack-ng atop htop glances snap git wget ca-certificates curl gnupg lsb-release screen
 sudo snap install bashtop gh
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
